@@ -1,4 +1,4 @@
-name = "Weapons balance - Vanilla";
+name = "Weapons balance - Global Mobilisation";
 description = "A collection of weight balancing mods made by johnb43";
 tooltip = "Weight balance";
 tooltipOwned = "Weight balance";

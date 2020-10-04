@@ -1,6 +1,6 @@
 class CfgPatches {
-    class WB_fix_vanilla {
-        name = "Weapons balance - Fix basegame";
+    class WB_fix_GM {
+        name = "Weapons balance - Global Mobilisation";
         units[] = {};
         weapons[] = {};
         requiredVersion = 1.96;
@@ -9,8 +9,7 @@ class CfgPatches {
     };
 };
 
-#include "CfgAcc.hpp"
+//#include "CfgAcc.hpp"
 #include "CfgMagazineWells.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgWeapons.hpp"
-#include "CfgAmmo.hpp"
