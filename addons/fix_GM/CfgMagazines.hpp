@@ -50,4 +50,34 @@ class CfgMagazines {
         mass = 43;
     };
 
+    class gm_8rnd_9x19mm_p1_blk;
+    class gm_8Rnd_9x19mm_B_DM11_p1_blk: gm_8rnd_9x19mm_p1_blk {
+        mass = 4.5;
+    };
+    class gm_8Rnd_9x19mm_B_DM51_p1_blk: gm_8rnd_9x19mm_p1_blk {
+        mass = 4.5;
+    };
+
+    class gm_8rnd_9x18mm_pm_blk;
+    class gm_8Rnd_9x18mm_B_pst_pm_blk: gm_8rnd_9x18mm_pm_blk {
+        mass = 4.5;
+    };
+
+    class gm_15rnd_9x18mm_pm63_blk;
+    class gm_15Rnd_9x18mm_B_pst_pm63_blk: gm_15rnd_9x18mm_pm63_blk {
+        mass = 3.5;
+    };
+
+    class gm_25rnd_9x18mm_pm63_blk;
+    class gm_25Rnd_9x18mm_B_pst_pm63_blk: gm_25rnd_9x18mm_pm63_blk {
+        mass = 6;
+    };
+
+    class gm_1rnd_40mmm_rpg7_base;
+    class gm_1Rnd_40mm_heat_pg7v_rpg7: gm_1rnd_40mmm_rpg7_base {
+        mass = 31.5;
+    };
+    class gm_1Rnd_40mm_heat_pg7vl_rpg7: gm_1rnd_40mmm_rpg7_base {
+        mass = 37.2;
+    };
 };

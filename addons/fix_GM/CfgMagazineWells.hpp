@@ -1,13 +1,4 @@
 class CfgMagazineWells {
-    class CBA_556x45_STANAG {
-        WB_Magazines[] += {
-            "gm_20Rnd_556x45mm_B_T_M856_stanag_gry",
-            "gm_20Rnd_556x45mm_B_M855_stanag_gry",
-            "gm_30Rnd_556x45mm_B_T_M856_stanag_gry",
-            "gm_30Rnd_556x45mm_B_M855_stanag_gry"
-        };
-    };
-
     class CBA_545x39_AK {
         WB_Magazines[] += {
             "gm_30Rnd_545x39mm_B_T_7T3_ak74_org",
@@ -23,6 +14,15 @@ class CfgMagazineWells {
             "gm_45Rnd_545x39mm_B_T_7T3_ak74_prp",
             "gm_45Rnd_545x39mm_B_7N6_ak74_prp",
             "gm_45Rnd_545x39mm_B_7N6_ak74_org"
+        };
+    };
+
+    class CBA_556x45_STANAG {
+        WB_Magazines[] += {
+            "gm_20Rnd_556x45mm_B_T_M856_stanag_gry",
+            "gm_20Rnd_556x45mm_B_M855_stanag_gry",
+            "gm_30Rnd_556x45mm_B_T_M856_stanag_gry",
+            "gm_30Rnd_556x45mm_B_M855_stanag_gry"
         };
     };
 
@@ -91,16 +91,24 @@ class CfgMagazineWells {
 
     class CBA_9x18_PM {
         WB_Magazines[] += {
-            "10Rnd_9x21_Mag"
+            "gm_8Rnd_9x18mm_B_pst_pm_blk"
         };
     };
 
-    class CBA_9x19_MP443 {
+    class CBA_9x19_P38 {
         WB_Magazines[] += {
-            "16Rnd_9x21_green_Mag",
-            "16Rnd_9x21_red_Mag",
-            "16Rnd_9x21_yellow_Mag",
-            "16Rnd_9x21_Mag"
+            "gm_8Rnd_9x19mm_B_DM11_p1_blk",
+            "gm_8Rnd_9x19mm_B_DM51_p1_blk"
+        };
+    };
+
+    class CBA_Carl_Gustaf {
+        WB_Magazines[] += {
+            "gm_1Rnd_84x245mm_heat_t_DM12_carlgustaf",
+            "gm_1Rnd_84x245mm_heat_t_DM12a1_carlgustaf",
+            "gm_1Rnd_84x245mm_heat_t_DM22_carlgustaf",
+            "gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf",
+            "gm_1Rnd_84x245mm_ILLUM_DM16_carlgustaf"
         };
     };
 
@@ -110,6 +118,13 @@ class CfgMagazineWells {
             "gm_100Rnd_762x54mm_API_b32_pk_grn",
             "gm_100Rnd_762x54mmR_B_T_7t2_pk_grn",
             "gm_100Rnd_762x54mm_B_T_t46_pk_grn"
+        };
+    };
+
+    class RPG7 {
+        WB_Magazines[] += {
+            "gm_1Rnd_40mm_heat_pg7v_rpg7",
+            "gm_1Rnd_40mm_heat_pg7vl_rpg7"
         };
     };
 
