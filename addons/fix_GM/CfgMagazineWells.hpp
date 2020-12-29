@@ -95,10 +95,24 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_9x18_PM63 {
+        WB_Magazines[] += {
+            "gm_15Rnd_9x18mm_B_pst_pm63_blk",
+            "gm_25Rnd_9x18mm_B_pst_pm63_blk"
+        };
+    };
+
     class CBA_9x19_P38 {
         WB_Magazines[] += {
             "gm_8Rnd_9x19mm_B_DM11_p1_blk",
             "gm_8Rnd_9x19mm_B_DM51_p1_blk"
+        };
+    };
+
+    class CBA_9x19_UZI {
+        WB_Magazines[] += {
+            "gm_32Rnd_9x19mm_B_DM11_mp2_blk",
+            "gm_32Rnd_9x19mm_B_DM51_mp2_blk"
         };
     };
 
@@ -109,6 +123,13 @@ class CfgMagazineWells {
             "gm_1Rnd_84x245mm_heat_t_DM22_carlgustaf",
             "gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf",
             "gm_1Rnd_84x245mm_ILLUM_DM16_carlgustaf"
+        };
+    };
+
+    class CBA_RPG7 {
+        WB_Magazines[] += {
+            "gm_1Rnd_40mm_heat_pg7v_rpg7",
+            "gm_1Rnd_40mm_heat_pg7vl_rpg7"
         };
     };
 

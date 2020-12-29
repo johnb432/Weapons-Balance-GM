@@ -1,3 +1,56 @@
+TODO: gm_pl_army_vest_80_rig_gry: weight definition
+
+# Changelog for Weapons balance 29.12.2020
+
+- Added ACE barrel and ACE ammo stats
+- Added RHS AK scopes configs on weapons to better fit the individual weapons
+- Renamed magazines to accurately fit their content
+
+- Weapon changes:
+    - GM:
+        - AKM:
+            - Changed weight from 3.12kg to 3.13kg
+        - GV M95, C7A1 & C7A1 (Black):
+            - Changed weight from 3.09kg to 3.31kg
+        - G3A3s & GV M/75s:
+            - Changed weight from 4.42kg to 4.40kg
+        - G3A4s & GV M/75 Carbines:
+            - Changed weight from 4.42kg to 4.60kg
+        - M16A1:
+            - Changed weight from 2.95kg to 3.11kg
+        - MG3s & M/62:
+            - Changed weight from 11.56kg to 11.50kg
+        - MP2A1:
+            - Changed weight from 3.63kg to 3.49kg
+        - MPi KM-72s:
+            - Changed weight from 3.12kg to 3.18kg
+        - MPi KMS-72s:
+            - Changed weight from 3.12kg to 3.29kg
+        - PKM:
+            - Changed weight from 7.56kg to 7.48kg
+        - PM-63:
+            - Changed weight from 1.61kg to 1.59kg
+        - SG5A2/3:
+            - Added 9mm SMG muzzle attachments
+        - RPG-7s:
+            - Added CBA Magwell for RPG-7 rounds
+
+- MagazineWells:
+    - CBA:
+        - 9x18 PM-63:
+            - Added 1x GM 15Rnd mag
+            - Added 1x GM 25Rnd mag
+        - 9x19 UZI:
+            - Added 2x GM 32Rnd mags
+        - RPG-7:
+            - Added 2x GM RPG rounds
+
+- Weight balancing:
+    - GM:
+        - Both 32Rnd UZI 9x19 mags from kg to 0.50kg
+        - 1x 25Rnd PM-63 9x18 mag from 0.27kg to 0.23kg
+        - All (5x) 30Rnd AK 7.62x39 mags from 0.56kg to 0.61kg
+
 # Changelog for Weapons balance 24.10.2020
 
 - Weapon changes:
@@ -20,15 +73,15 @@
         - M16A1:
             - Added all 5.56 muzzle attachments
             - Added CBA Magwell for 5.56x45mm mags/drum/C-mags
-            - Changed weight from kg to 2.95kg
+            - Changed weight from 3.09kg to 2.95kg
         - M16A2:
             - Added all 5.56 muzzle attachments
             - Added CBA Magwell for 5.56x45mm mags/drum/C-mags
-            - Changed weight from kg to 3.49kg
+            - Changed weight from 3.09kg to 3.49kg
         - MPi AK-74Ns:
             - Added all russian scopes to side rail
             - Added CBA Magwell for 5.45x39mm mags
-            - Changed weight from kg to 3.31kg
+            - Changed weight from 3.09kg to 3.31kg
         - MPi AKS-74Ns & ASK-74NKs:
             - Added all russian scopes to side rail
             - Added CBA Magwell for 5.45x39mm mags
@@ -42,32 +95,32 @@
         - LMG RPK-74:
             - Added all russian scopes to side rail
             - Added CBA Magwell for 5.45x39mm mags
-            - Changed weight from kg to 4.58kg
+            - Changed weight from 4.03kg to 4.58kg
         - LMG RPK:
             - Changed name to "RPKN"
             - Added all russian scopes to side rail
             - Added CBA Magwell for 7.62x39mm AK/RPK mags/drum
-            - Changed weight from kg to 4.85kg
+            - Changed weight from 5.04kg to 4.85kg
         - RPK:
             - Changed name to "RPKN (Wood)"
             - Added all russian scopes to side rail
             - Added CBA Magwell for 7.62x39mm AK/RPK mags/drum
-            - Changed weight from kg to 4.85kg
+            - Changed weight from 5.04kg to 4.85kg
         - SG5A2:
             - Added CBA Magwell for 9x19mm MP5 mags
-            - Changed weight from kg to 2.89kg
+            - Changed weight from 4.42kg to 2.89kg
         - SG5A3:
             - Added CBA Magwell for 9x19mm MP5 mags
-            - Changed weight from kg to 3.10kg
+            - Changed weight from 4.42kg to 3.10kg
         - SG5SD2:
             - Added CBA Magwell for 9x19mm MP5 mags
-            - Changed weight from kg to 3.20kg
+            - Changed weight from 4.42kg to 3.20kg
         - SG5SD3:
             - Added CBA Magwell for 9x19mm MP5 mags
-            - Changed weight from kg to 3.40kg
+            - Changed weight from 4.42kg to 3.40kg
         - SVD:
             - Added CBA Magwell for 7.62x54Rmm SVD mags
-            - Changed weight from kg to 3.90kg
+            - Changed weight from 4.33kg to 3.90kg
         - P1:
             - Added CBA Magwell for 9x19mm P38 mags
         - PM:
@@ -76,10 +129,6 @@
              - Added CBA Magwell for Carl Gustaf rounds
         - RPG-7s:
              - Added Vanilla Magwell for RPG-7 rounds
-        - Kozlice 12G
-            - Changed weight from 4.99kg to 3.63kg
-
-            gm_pl_army_vest_80_rig_gry
 
 - MagazineWells:
     - CBA:
@@ -96,7 +145,7 @@
             - Added 5x GM 75Rnd drum mags
         - 7.62x51 G3:
             - Added 12x GM 20Rnd mags
-            - Added 1x GM HE Rifle Grenade
+            - Added 1x GM HEAT Rifle Grenade
         - 7.62x51 MG3:
             - Added 3x GM 120Rnd belts
         - 7.62x54R Links:
