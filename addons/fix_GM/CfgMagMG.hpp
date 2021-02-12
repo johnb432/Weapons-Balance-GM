@@ -1,5 +1,6 @@
 class gm_magazine_762x51mm_belt_base;
 class gm_120rnd_762x51mm_mg3_base: gm_magazine_762x51mm_belt_base {
+    ACE_isBelt = 1;
     mass = 40;
 };
 class gm_120rnd_762x51mm_mg3_grn;
@@ -15,6 +16,7 @@ class gm_120Rnd_762x51mm_B_T_DM21A2_mg3_grn: gm_120rnd_762x51mm_mg3_grn {
 
 class gm_magazine_762x54mmR_belt_base;
 class gm_100rnd_762x54mmR_pk_base: gm_magazine_762x54mmR_belt_base {
+    ACE_isBelt = 1;
     mass = 43;
 };
 class gm_100rnd_762x54mmR_pk_grn;

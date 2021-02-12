@@ -11,7 +11,7 @@ class gm_mp5a2_blk: gm_mp5a2_base {
     displayName = "SG5A2";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 63.8;
-        class Cowsslot: asdg_OpticRail1913_3CB_G3 {};
+        class Cowsslot: UK3CB_OpticRail1913_G3 {};
         class MuzzleSlot: asdg_MuzzleSlot_9MM_SMG {};
     };
 };
@@ -23,7 +23,7 @@ class gm_mp5a3_blk: gm_mp5a3_base {
     displayName = "SG5A3";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 68.3;
-        class Cowsslot: asdg_OpticRail1913_3CB_G3 {};
+        class Cowsslot: UK3CB_OpticRail1913_G3 {};
         class MuzzleSlot: asdg_MuzzleSlot_9MM_SMG {};
     };
 };
@@ -39,7 +39,7 @@ class gm_mp5sd2_blk: gm_mp5sd2_base {
     displayName = "SG5SD2";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 70.5;
-        class Cowsslot: asdg_OpticRail1913_3CB_G3 {};
+        class Cowsslot: UK3CB_OpticRail1913_G3 {};
     };
 };
 
@@ -50,7 +50,7 @@ class gm_mp5sd3_blk: gm_mp5sd3_base {
     displayName = "SG5SD3";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 75;
-        class Cowsslot: asdg_OpticRail1913_3CB_G3 {};
+        class Cowsslot: UK3CB_OpticRail1913_G3 {};
     };
 };
 

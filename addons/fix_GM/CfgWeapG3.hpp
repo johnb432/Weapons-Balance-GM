@@ -7,8 +7,8 @@ class gm_g3_base: gm_rifle_base {
 class gm_g3a3_base: gm_g3_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 96.9;
-        class Cowsslot: asdg_OpticRail1913_3CB_G3 {};
-        class MuzzleSlot: asdg_MuzzleSlot_762_3CB_G3 {};
+        class Cowsslot: UK3CB_OpticRail1913_G3 {};
+        class MuzzleSlot: UK3CB_MuzzleSlot_762_G3 {};
     };
 };
 class gm_g3a3_blk: gm_g3a3_base {
@@ -27,8 +27,8 @@ class gm_g3a3_oli: gm_g3a3_base {
 class gm_g3a4_base: gm_g3_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 101.4;
-        class Cowsslot: asdg_OpticRail1913_3CB_G3 {};
-        class MuzzleSlot: asdg_MuzzleSlot_762_3CB_G3 {};
+        class Cowsslot: UK3CB_OpticRail1913_G3 {};
+        class MuzzleSlot: UK3CB_MuzzleSlot_762_G3 {};
     };
 };
 class gm_g3a4_blk: gm_g3a4_base {
@@ -47,8 +47,8 @@ class gm_g3a4_oli: gm_g3a4_base {
 class gm_gvm75_base: gm_g3_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 96.9;
-        class Cowsslot: asdg_OpticRail1913_3CB_G3 {};
-        class MuzzleSlot: asdg_MuzzleSlot_762_3CB_G3 {};
+        class Cowsslot: UK3CB_OpticRail1913_G3 {};
+        class MuzzleSlot: UK3CB_MuzzleSlot_762_G3 {};
     };
 };
 class gm_gvm75_blk: gm_gvm75_base {
@@ -64,8 +64,8 @@ class gm_gvm75_oli: gm_gvm75_base {
 class gm_gvm75carb_base: gm_g3_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 101.4;
-        class Cowsslot: asdg_OpticRail1913_3CB_G3 {};
-        class MuzzleSlot: asdg_MuzzleSlot_762_3CB_G3 {};
+        class Cowsslot: UK3CB_OpticRail1913_G3 {};
+        class MuzzleSlot: UK3CB_MuzzleSlot_762_G3 {};
     };
 };
 class gm_gvm75carb_blk: gm_gvm75carb_base {

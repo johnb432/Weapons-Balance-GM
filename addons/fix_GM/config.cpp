@@ -16,7 +16,7 @@ class CfgPatches {
 #include "CfgMagazineWells.hpp"
 
 class asdg_MuzzleSlot_556;
-class asdg_MuzzleSlot_762_3CB_G3;
+class UK3CB_MuzzleSlot_762_G3;
 class asdg_MuzzleSlot_9MM_SMG;
 
 class CfgWeapons {

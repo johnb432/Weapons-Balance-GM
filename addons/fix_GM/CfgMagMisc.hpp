@@ -61,7 +61,7 @@ class gm_15Rnd_9x18mm_B_pst_pm63_blk: gm_15rnd_9x18mm_pm63_blk {
 class gm_25rnd_9x18mm_pm63_blk;
 class gm_25Rnd_9x18mm_B_pst_pm63_blk: gm_25rnd_9x18mm_pm63_blk {
     displayName = "25Rnd 9x18mm PM-63 Mag";
-    mass = 5.1;
+    mass = 7.27;
 };
 
 class gm_1rnd_40mmm_rpg7_base;

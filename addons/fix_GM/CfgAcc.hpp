@@ -35,7 +35,7 @@ class rhs_russian_svd_scopes_slot: asdg_OpticSideRail_SVD {
     };
 };
 
-class asdg_OpticRail1913_3CB_G3: asdg_OpticRail {
+class UK3CB_OpticRail1913_G3: asdg_OpticRail {
     class compatibleItems {
         gm_feroz24_blk = 1;
         gm_feroz24_des = 1;

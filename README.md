@@ -1,4 +1,11 @@
-TODO: gm_pl_army_vest_80_rig_gry: weight definition
+TODO:
+- gm_pl_army_vest_80_rig_gry: weight definition
+- strela, fim.43 reload time reload thingy
+
+# Changelog for Weapons balance 12.02.2021
+
+- Updated to comply with 3CB Faction update
+- Added ACE isBelt stat to MG belts
 
 # Changelog for Weapons balance 29.12.2020
 
