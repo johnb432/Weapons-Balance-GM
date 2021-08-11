@@ -1,8 +1,45 @@
-TODO:
-- gm_pl_army_vest_80_rig_gry: weight definition
-- strela, fim.43 reload time reload thingy
+# Changelog for Weapons balance 9.8.2021
 
-# Changelog for Weapons balance 12.02.2021
+1.1.0.0
+- Added hemtt support
+- Renamed more magazines to accurately fit their content
+
+- Weapon changes:
+    - GM:
+        - AKM (Pallad):
+            - Changed weight from 4.33kg to 4.63kg
+        - G36s:
+            - Added CBA Magwell for G36 mags
+            - Added 5.56 muzzle devices
+        - G36E:
+            - Changed weight from 3.33kg to 3.58kg
+        - G3A3 DMRs:
+            - Added more scopes, bipods, lasers and muzzle devices
+            - Changed weight from 4.42kg to 4.39kg
+        - G3A4 EBRs:
+            - Added more scopes, bipods, lasers and muzzle devices
+            - Changed weight from 4.42kg to 4.69kg
+        - Tactical Suspenders:
+            - Changed weight from 0.00kg to 0.36kg
+
+- MagazineWells:
+    - CBA:
+        - 5.56 G36:
+            - Added 4x GM 30Rnd mags
+        - 9x19 MP5:
+            - Added 6x GM 30Rnd mags
+        - 9x19 UZI:
+            - Added 1x GM 32Rnd mag
+        - FIM:
+            - Added 1x FIM AA rocket
+        - Strela
+            - Added 1x Strela AA rocket
+
+- Weight balancing:
+    - GM:
+        - All (4x) 30Rnd G36 5.56x45 mags from 0.56kg to 0.36kg    
+
+# Changelog for Weapons balance 12.2.2021
 
 - Updated to comply with 3CB Faction update
 - Added ACE isBelt stat to MG belts
@@ -54,7 +91,7 @@ TODO:
 
 - Weight balancing:
     - GM:
-        - Both 32Rnd UZI 9x19 mags from kg to 0.50kg
+        - Both 32Rnd UZI 9x19 mags from 0.30kg to 0.50kg
         - 1x 25Rnd PM-63 9x18 mag from 0.27kg to 0.23kg
         - All (5x) 30Rnd AK 7.62x39 mags from 0.56kg to 0.61kg
 

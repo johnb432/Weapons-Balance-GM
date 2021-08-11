@@ -17,6 +17,15 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_556x45_G36 {
+        WB_Magazines[] += {
+            "gm_30Rnd_556x45mm_B_T_DM21_g36_des",
+            "gm_30Rnd_556x45mm_B_T_DM21_g36_blk",
+            "gm_30Rnd_556x45mm_B_DM11_g36_des",
+            "gm_30Rnd_556x45mm_B_DM11_g36_blk"
+        };
+    };
+
     class CBA_556x45_STANAG {
         WB_Magazines[] += {
             "gm_20Rnd_556x45mm_B_T_M856_stanag_gry",
@@ -102,6 +111,17 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_9x19_MP5 {
+        WB_Magazines[] += {
+            "gm_30Rnd_9x19mm_B_DM11_mp5a3_blk",
+            "gm_30Rnd_9x19mm_B_DM11_mp5_blk",
+            "gm_30Rnd_9x19mm_B_DM51_mp5a3_blk",
+            "gm_30Rnd_9x19mm_B_DM51_mp5_blk",
+            "gm_30Rnd_9x19mm_AP_DM91_mp5a3_blk",
+            "gm_30Rnd_9x19mm_AP_DM91_mp5_blk"
+        };
+    };
+
     class CBA_9x19_P38 {
         WB_Magazines[] += {
             "gm_8Rnd_9x19mm_B_DM11_p1_blk",
@@ -112,7 +132,8 @@ class CfgMagazineWells {
     class CBA_9x19_UZI {
         WB_Magazines[] += {
             "gm_32Rnd_9x19mm_B_DM11_mp2_blk",
-            "gm_32Rnd_9x19mm_B_DM51_mp2_blk"
+            "gm_32Rnd_9x19mm_B_DM51_mp2_blk",
+            "gm_32Rnd_9x19mm_AP_DM91_mp2_blk"
         };
     };
 
@@ -126,10 +147,22 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_FIM {
+        WB_Magazines[] += {
+            "gm_1Rnd_70mm_he_m585_fim43"
+        };
+    };
+
     class CBA_RPG7 {
         WB_Magazines[] += {
             "gm_1Rnd_40mm_heat_pg7v_rpg7",
             "gm_1Rnd_40mm_heat_pg7vl_rpg7"
+        };
+    };
+
+    class CBA_STRELA {
+        WB_Magazines[] += {
+            "gm_1Rnd_72mm_he_9m32m"
         };
     };
 

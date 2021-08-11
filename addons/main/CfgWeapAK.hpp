@@ -31,6 +31,16 @@ class gm_akmn_wud: gm_akmn_base {
     };
 };
 
+class gm_akm_pallad_base: gm_akm_base {
+    class WeaponSlotsInfo: WeaponSlotsInfo {};
+};
+class gm_akm_pallad_wud: gm_akm_pallad_base {
+    displayName = "AKM (Pallad)";
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 102.1;
+    };
+};
+
 class gm_km72_base: gm_akmn_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 70.1;

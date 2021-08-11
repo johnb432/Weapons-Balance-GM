@@ -63,7 +63,7 @@ class gm_pm63_base: gm_rifle_base {
     };
 };
 class gm_pm63_blk: gm_pm63_base {
-    displayName = "PM-63";
+    displayName = "PM-63 RAK";
     class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
 

@@ -1,9 +1,11 @@
+#include "script_component.hpp"
+
 class CfgPatches {
-    class WB_fix_GM {
-        name = "Weapons balance - Global Mobilization";
+    class ADDON {
+        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        requiredVersion = 1.96;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "cba_main"
         };
@@ -18,6 +20,8 @@ class CfgPatches {
 class asdg_MuzzleSlot_556;
 class UK3CB_MuzzleSlot_762_G3;
 class asdg_MuzzleSlot_9MM_SMG;
+class PointerSlot_Rail;
+class asdg_UnderSlot;
 
 class CfgWeapons {
     class Rifle;
@@ -49,4 +53,8 @@ class CfgMagazines {
     #include "CfgMagMG.hpp"
     #include "CfgMagSMG.hpp"
     #include "CfgMagMisc.hpp"
+};
+
+class CBA_DisposableLaunchers {
+    gm_m72a3_oli_ready[] = {"gm_m72a3_oli","gm_m72a3_spent_oli"};
 };

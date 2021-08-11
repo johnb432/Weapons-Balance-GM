@@ -41,3 +41,18 @@ class UK3CB_OpticRail1913_G3: asdg_OpticRail {
         gm_feroz24_des = 1;
     };
 };
+
+class asdg_OpticRail1913: asdg_OpticRail {
+    class compatibleItems {
+        gm_c79a1_blk = 1;
+        gm_c79a1_oli = 1;
+    };
+};
+
+class CowsSlot;
+class CowsSlot_Rail: CowsSlot {
+    class compatibleItems {
+        gm_c79a1_blk = 1;
+        gm_c79a1_oli = 1;
+    };
+};
