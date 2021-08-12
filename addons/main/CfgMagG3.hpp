@@ -1,6 +1,6 @@
 class gm_magazine_762x51mm_base;
 class gm_20rnd_762x51mm_g3_base: gm_magazine_762x51mm_base {
-    mass = 16.9;
+    mass = 16.24;
 };
 
 class gm_20rnd_762x51mm_g3_blk;
