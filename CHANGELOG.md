@@ -37,7 +37,8 @@
 
 - Weight balancing:
     - GM:
-        - All (4x) 30Rnd G36 5.56x45 mags from 0.56kg to 0.36kg    
+        - All (4x) 30Rnd G36 5.56x45 mags from 0.56kg to 0.36kg
+        - All (12x) 20Rnd G3 7.62x51 mags from 0.77kg to 0.74kg
 
 # Changelog for Weapons balance 12.2.2021
 
