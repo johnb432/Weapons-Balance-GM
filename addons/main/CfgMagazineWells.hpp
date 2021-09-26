@@ -153,6 +153,31 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_FLARE_P2A1 {
+        WB_Magazines[] += {
+            "gm_1Rnd_265mm_flare_single_grn_gc",
+            "gm_1Rnd_265mm_flare_multi_red_gc",
+            "gm_1Rnd_265mm_flare_single_red_gc",
+            "gm_1Rnd_265mm_flare_single_wht_gc",
+            "gm_1Rnd_265mm_flare_single_yel_DM10",
+            "gm_1Rnd_265mm_flare_single_grn_DM11",
+            "gm_1Rnd_265mm_flare_single_red_DM13",
+            "gm_1Rnd_265mm_flare_single_wht_DM15",
+            "gm_1Rnd_265mm_flare_para_yel_DM16",
+            "gm_1Rnd_265mm_flare_multi_yel_DM20",
+            "gm_1Rnd_265mm_flare_multi_grn_DM21",
+            "gm_1Rnd_265mm_flare_multi_red_DM23",
+            "gm_1Rnd_265mm_flare_multi_wht_DM25",
+            "gm_1Rnd_265mm_flare_multi_nbc_DM47",
+            "gm_1Rnd_265mm_smoke_single_blk_gc",
+            "gm_1Rnd_265mm_smoke_single_blu_gc",
+            "gm_1Rnd_265mm_smoke_single_yel_gc",
+            "gm_1Rnd_265mm_smoke_single_yel_DM19",
+            "gm_1Rnd_265mm_smoke_single_org_DM22",
+            "gm_1Rnd_265mm_smoke_single_vlt_DM24"
+        };
+    };
+
     class CBA_RPG7 {
         WB_Magazines[] += {
             "gm_1Rnd_40mm_heat_pg7v_rpg7",

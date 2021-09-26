@@ -1,5 +1,18 @@
 # Changelog for Weapons balance 9.8.2021
 
+1.1.0.1
+- Weapon changes:
+    - GM:
+        - LP1, P2A1 & wz. 78:
+            - Added CBA Magwell for P2A1 flares
+
+- MagazineWells:
+    - CBA:
+        - P2A1 flare:
+            - Added 20x GM flares
+
+# Changelog for Weapons balance 9.8.2021
+
 1.1.0.0
 - Added hemtt support
 - Renamed more magazines to accurately fit their content

@@ -58,16 +58,19 @@ class gm_p1_blk: gm_p1_base {
 class gm_lp1_base;
 class gm_lp1_blk: gm_lp1_base {
     displayName = "LP1";
+    magazineWell[] += {"CBA_FLARE_P2A1"};
 };
 
 class gm_p2a1_base;
 class gm_p2a1_blk: gm_p2a1_base {
     displayName = "P2A1";
+    magazineWell[] += {"CBA_FLARE_P2A1"};
 };
 
 class gm_wz78_base;
 class gm_wz78_blk: gm_wz78_base {
     displayName = "wz. 78";
+    magazineWell[] += {"CBA_FLARE_P2A1"};
 };
 
 class gm_hk69a1_base;
