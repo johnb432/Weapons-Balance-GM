@@ -1,3 +1,20 @@
+# Changelog for Weapons balance 30.10.2021
+
+1.1.0.2
+- Some background changes, nothing much content wise.
+
+- Weapon changes:
+    - GM:
+        - AKM (Pallad):
+            - Changed name to "AKM (GP-40)"
+        - wz.83 Pallad-D:
+            - Changed name to "GS-40"
+
+- MagazineWells:
+    - CBA:
+        - P2A1 flare:
+            - Renamed to "CBA_FLARE_265"
+
 # Changelog for Weapons balance 9.8.2021
 
 1.1.0.1

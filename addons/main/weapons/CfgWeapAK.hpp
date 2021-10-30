@@ -35,7 +35,10 @@ class gm_akm_pallad_base: gm_akm_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
 class gm_akm_pallad_wud: gm_akm_pallad_base {
-    displayName = "AKM (Pallad)";
+    displayName = "AKM (GP-40)";
+    class gl_muzzle: gm_pallad_muzzle {
+        displayName = "GP-40";
+    };
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 102.1;
     };

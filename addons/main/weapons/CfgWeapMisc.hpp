@@ -44,6 +44,18 @@ class gm_g36e_blk: gm_g36e_base {
     };
 };
 
+class gm_grenadeLauncher_base;
+class gm_pallad_muzzle: gm_grenadeLauncher_base {
+    descriptionShort = "Grenadelauncher<br />Caliber: 40x46 mm";
+    displayName = "GP-40";
+    displaynameShort = "GP-40";
+    magazineWell[] += {"CBA_40mm_M203"};
+};
+class gm_hk69_muzzle: gm_grenadeLauncher_base {
+    displaynameShort = "GraPi";
+    magazineWell[] += {"CBA_40mm_M203"};
+};
+
 class gm_pm_base;
 class gm_pm_blk: gm_pm_base {
     displayName = "PM";
@@ -58,19 +70,19 @@ class gm_p1_blk: gm_p1_base {
 class gm_lp1_base;
 class gm_lp1_blk: gm_lp1_base {
     displayName = "LP1";
-    magazineWell[] += {"CBA_FLARE_P2A1"};
+    magazineWell[] += {"CBA_FLARE_265"};
 };
 
 class gm_p2a1_base;
 class gm_p2a1_blk: gm_p2a1_base {
     displayName = "P2A1";
-    magazineWell[] += {"CBA_FLARE_P2A1"};
+    magazineWell[] += {"CBA_FLARE_265"};
 };
 
 class gm_wz78_base;
 class gm_wz78_blk: gm_wz78_base {
     displayName = "wz. 78";
-    magazineWell[] += {"CBA_FLARE_P2A1"};
+    magazineWell[] += {"CBA_FLARE_265"};
 };
 
 class gm_hk69a1_base;
@@ -80,7 +92,8 @@ class gm_hk69a1_blk: gm_hk69a1_base {
 
 class gm_pallad_d_base;
 class gm_pallad_d_brn: gm_pallad_d_base {
-    displayName = "wz.83 Pallad-D";
+    displayName = "GS-40";
+    displaynameShort = "GS-40";
 };
 
 class gm_launcher_base;

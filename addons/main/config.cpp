@@ -7,9 +7,28 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "cba_main"
+            "gm_characters_dk_characters"
         };
         author = "johnb43";
+        url = "https://github.com/johnb432/Weapons-Balance-GM";
+        VERSION_CONFIG;
+    };
+};
+
+class CfgMods {
+    class PREFIX {
+        name = "Weapons Balance - Global Mobilization";
+        author = "johnb43";
+        tooltipOwned = "Weapons Balance - Global Mobilization";
+        hideName = 0;
+        hidePicture = 0;
+        actionName = "Github";
+        action = "https://github.com/johnb432/Weapons-Balance-GM";
+        description = "A collection of balancing mods made by johnb43.";
+        overview = "A collection of balancing mods made by johnb43.";
+        picture = "\z\wb_gm\addons\main\ui\logo_weapons_balance.paa"; // http://getdrawings.com/get-drawing#gun-drawing-in-pencil-27.jpg, http://getdrawings.com/get-drawing#gun-drawing-in-pencil-17.png
+        logo = "\z\wb_gm\addons\main\ui\logo_weapons_balance.paa";
+        overviewPicture = "\z\wb_gm\addons\main\ui\logo_weapons_balance.paa";
     };
 };
 
@@ -35,12 +54,12 @@ class CfgWeapons {
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
 
-    #include "CfgWeapAK.hpp"
-    #include "CfgWeapAR15.hpp"
-    #include "CfgWeapG3.hpp"
-    #include "CfgWeapMG.hpp"
-    #include "CfgWeapSMG.hpp"
-    #include "CfgWeapMisc.hpp"
+    #include "weapons\CfgWeapMisc.hpp"
+    #include "weapons\CfgWeapAK.hpp"
+    #include "weapons\CfgWeapAR15.hpp"
+    #include "weapons\CfgWeapG3.hpp"
+    #include "weapons\CfgWeapMG.hpp"
+    #include "weapons\CfgWeapSMG.hpp"
 };
 
 class CfgMagazines {
@@ -48,11 +67,11 @@ class CfgMagazines {
     class gm_magazine_556x45mm_base;
     class gm_magazine_762x54mmR_base;
 
-    #include "CfgMagAK.hpp"
-    #include "CfgMagG3.hpp"
-    #include "CfgMagMG.hpp"
-    #include "CfgMagSMG.hpp"
-    #include "CfgMagMisc.hpp"
+    #include "magazines\CfgMagAK.hpp"
+    #include "magazines\CfgMagG3.hpp"
+    #include "magazines\CfgMagMG.hpp"
+    #include "magazines\CfgMagSMG.hpp"
+    #include "magazines\CfgMagMisc.hpp"
 };
 
 class CBA_DisposableLaunchers {

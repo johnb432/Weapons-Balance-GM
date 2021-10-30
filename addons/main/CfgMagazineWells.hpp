@@ -153,7 +153,7 @@ class CfgMagazineWells {
         };
     };
 
-    class CBA_FLARE_P2A1 {
+    class CBA_FLARE_265 {
         WB_Magazines[] += {
             "gm_1Rnd_265mm_flare_single_grn_gc",
             "gm_1Rnd_265mm_flare_multi_red_gc",
