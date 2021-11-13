@@ -1,3 +1,16 @@
+# Changelog for Weapons balance 8.11.2021
+
+1.1.0.3
+- MagazineWells:
+    - CBA:
+        - 5.56x45 Stanag:
+            - Added 1x GM 20Rnd mag
+            - Added 1x GM 30Rnd mag
+    - Vanilla:
+        - 5.56x45 Stanag:
+            - Added 1x GM 20Rnd mag
+            - Added 1x GM 30Rnd mag
+
 # Changelog for Weapons balance 30.10.2021
 
 1.1.0.2

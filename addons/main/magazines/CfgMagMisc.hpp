@@ -11,6 +11,9 @@ class gm_20Rnd_556x45mm_B_T_M856_stanag_gry: gm_20rnd_556x45mm_stanag_gry {
 class gm_20Rnd_556x45mm_B_M193_stanag_gry: gm_20rnd_556x45mm_stanag_gry {
     displayName = "20Rnd 5.56x45mm M193 STANAG Mag";
 };
+class gm_20Rnd_556x45mm_B_T_M196_stanag_gry: gm_20rnd_556x45mm_stanag_gry {
+    displayName = "20Rnd 5.56x45mm M196 STANAG Mag (Tracer)";
+};
 
 class gm_30rnd_556x45mm_stanag_base: gm_magazine_556x45mm_base {
     mass = 9.35;
@@ -24,6 +27,9 @@ class gm_30Rnd_556x45mm_B_T_M856_stanag_gry: gm_30rnd_556x45mm_stanag_gry {
 };
 class gm_30Rnd_556x45mm_B_M193_stanag_gry: gm_30rnd_556x45mm_stanag_gry {
     displayName = "30Rnd 5.56x45mm M193 STANAG Mag";
+};
+class gm_30Rnd_556x45mm_B_T_M196_stanag_gry: gm_30rnd_556x45mm_stanag_gry {
+    displayName = "30Rnd 5.56x45mm M196 STANAG Mag (Tracer)";
 };
 
 class gm_30rnd_556x45mm_g36_base: gm_magazine_556x45mm_base {
