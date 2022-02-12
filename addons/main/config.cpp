@@ -1,5 +1,7 @@
 #include "script_component.hpp"
 
+// TODO: Rename launcher magazines
+
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
@@ -7,28 +9,38 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "gm_characters_dk_characters"
+            "gm_core",
+            "gm_weapons_ammo",
+            "gm_weapons_rifles_ak47",
+            "gm_weapons_rifles_ak74",
+            "gm_weapons_rifles_g3",
+            "gm_weapons_rifles_g36",
+            "gm_weapons_rifles_m16",
+            "gm_weapons_rifles_mp5",
+            "gm_weapons_rifles_svd",
+            "gm_weapons_machineguns_mg3",
+            "gm_weapons_machineguns_pk",
+            "gm_weapons_machinepistols_gm_mp2",
+            "gm_weapons_machinepistols_gm_pm63",
+            "gm_weapons_pistols_lp1",
+            "gm_weapons_pistols_p1",
+            "gm_weapons_pistols_p2a1",
+            "gm_weapons_pistols_pm",
+            "gm_weapons_launchers_carlgustaf",
+            "gm_weapons_launchers_fim43",
+            "gm_weapons_launchers_hk69",
+            "gm_weapons_launchers_m72",
+            "gm_weapons_launchers_pallad",
+            "gm_weapons_launchers_pzf3",
+            "gm_weapons_launchers_pzf44_2",
+            "gm_weapons_launchers_rpg7",
+            "gm_weapons_launchers_strela",
+            "gm_characters_pl_characters"
         };
         author = "johnb43";
+        authors[] = {"johnb43"};
         url = "https://github.com/johnb432/Weapons-Balance-GM";
         VERSION_CONFIG;
-    };
-};
-
-class CfgMods {
-    class PREFIX {
-        name = "Weapons Balance - Global Mobilization";
-        author = "johnb43";
-        tooltipOwned = "Weapons Balance - Global Mobilization";
-        hideName = 0;
-        hidePicture = 0;
-        actionName = "Github";
-        action = "https://github.com/johnb432/Weapons-Balance-GM";
-        description = "A collection of balancing mods made by johnb43.";
-        overview = "A collection of balancing mods made by johnb43.";
-        picture = "\z\wb_gm\addons\main\ui\logo_weapons_balance.paa"; // http://getdrawings.com/get-drawing#gun-drawing-in-pencil-27.jpg, http://getdrawings.com/get-drawing#gun-drawing-in-pencil-17.png
-        logo = "\z\wb_gm\addons\main\ui\logo_weapons_balance.paa";
-        overviewPicture = "\z\wb_gm\addons\main\ui\logo_weapons_balance.paa";
     };
 };
 

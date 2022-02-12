@@ -1,4 +1,11 @@
-# Changelog for Weapons balance 8.11.2021
+# Changelog for Weapons Balance 12.2.2022
+
+1.1.0.4
+- Renamed more magazines to accurately fit their content.
+- Updated magazine names.
+- Removed unnecessary items that are now in the ACE compat.
+
+# Changelog for Weapons Balance 8.11.2021
 
 1.1.0.3
 - MagazineWells:
@@ -11,7 +18,7 @@
             - Added 1x GM 20Rnd mag
             - Added 1x GM 30Rnd mag
 
-# Changelog for Weapons balance 30.10.2021
+# Changelog for Weapons Balance 30.10.2021
 
 1.1.0.2
 - Some background changes, nothing much content wise.
@@ -28,7 +35,7 @@
         - P2A1 flare:
             - Renamed to "CBA_FLARE_265"
 
-# Changelog for Weapons balance 9.8.2021
+# Changelog for Weapons Balance 9.8.2021
 
 1.1.0.1
 - Weapon changes:
@@ -41,11 +48,11 @@
         - P2A1 flare:
             - Added 20x GM flares
 
-# Changelog for Weapons balance 9.8.2021
+# Changelog for Weapons Balance 9.8.2021
 
 1.1.0.0
-- Added hemtt support
-- Renamed more magazines to accurately fit their content
+- Added hemtt support.
+- Renamed more magazines to accurately fit their content.
 
 - Weapon changes:
     - GM:
@@ -83,16 +90,16 @@
         - All (4x) 30Rnd G36 5.56x45 mags from 0.56kg to 0.36kg
         - All (12x) 20Rnd G3 7.62x51 mags from 0.77kg to 0.74kg
 
-# Changelog for Weapons balance 12.2.2021
+# Changelog for Weapons Balance 12.2.2021
 
-- Updated to comply with 3CB Faction update
-- Added ACE isBelt stat to MG belts
+- Updated to comply with 3CB Faction update.
+- Added ACE isBelt stat to MG belts.
 
-# Changelog for Weapons balance 29.12.2020
+# Changelog for Weapons Balance 29.12.2020
 
-- Added ACE barrel and ACE ammo stats
-- Added RHS AK scopes configs on weapons to better fit the individual weapons
-- Renamed magazines to accurately fit their content
+- Added ACE barrel and ACE ammo stats.
+- Added RHS AK scopes configs on weapons to better fit the individual weapons.
+- Renamed magazines to accurately fit their content.
 
 - Weapon changes:
     - GM:
@@ -139,7 +146,7 @@
         - 1x 25Rnd PM-63 9x18 mag from 0.27kg to 0.23kg
         - All (5x) 30Rnd AK 7.62x39 mags from 0.56kg to 0.61kg
 
-# Changelog for Weapons balance 24.10.2020
+# Changelog for Weapons Balance 24.10.2020
 
 - Weapon changes:
     - GM:

@@ -5,6 +5,9 @@ class CfgAmmo {
     ACE_caliber = 7.8; Bullet diameter
     */
 
+    class B_762x54_Ball;
+    class gm_bullet_762x54mmR_base: B_762x54_Ball {};
+
     class gm_bullet_base;
     class gm_bullet_9x18mm_base: gm_bullet_base { //rhs_B_9x18_57N181S, 250mm twist
         ACE_ammoTempMuzzleVelocityShifts[] = {-2.655,-2.547,-2.285,-2.012,-1.698,-1.28,-0.764,-0.153,0.596,1.517,2.619};
