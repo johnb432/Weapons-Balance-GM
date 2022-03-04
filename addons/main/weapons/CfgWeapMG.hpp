@@ -65,7 +65,7 @@ class gm_mg3_des: gm_mg3_base {
 
 class gm_lmgm62_base;
 class gm_lmgm62_blk: gm_lmgm62_base {
-    displayName = "M/62";
+    displayName = "LMG M/62";
 };
 
 class gm_pk_base: gm_machineGun_base {
