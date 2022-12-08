@@ -9,7 +9,7 @@ class gm_svd_base: gm_rifle_base {
     rhs_pkas_type = "rhs_acc_pkas";
     rhs_pso1m2_type = "rhs_acc_pso1m2_ak";
     rhs_pso1m21_type = "rhs_acc_pso1m21_ak";
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class gm_svd_wud: gm_svd_base {
     displayName = "SVD";
@@ -35,7 +35,7 @@ class gm_g36a1_des: gm_g36a1_base {
 };
 
 class gm_g36e_base: gm_g36_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class gm_g36e_blk: gm_g36e_base {
     displayName = "G36E";
@@ -135,16 +135,9 @@ class gm_fim43_base: gm_launcher_base {
     magazineWell[] += {"CBA_FIM"};
 };
 
-class VestItem;
-class Vest_Camo_Base;
-class gm_vest_base: Vest_Camo_Base {
-    class ItemInfo: VestItem {};
-};
-class gm_vest_unarmored_base: gm_vest_base {
-    class ItemInfo: ItemInfo {};
-};
+class gm_vest_unarmored_base;
 class gm_pl_army_vest_80_base: gm_vest_unarmored_base {
-    class ItemInfo: ItemInfo {};
+    class ItemInfo;
 };
 class gm_pl_army_vest_80_rig_gry: gm_pl_army_vest_80_base {
     class ItemInfo: ItemInfo {

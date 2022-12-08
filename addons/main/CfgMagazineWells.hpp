@@ -30,9 +30,11 @@ class CfgMagazineWells {
         WB_Magazines[] += {
             "gm_20Rnd_556x45mm_B_M855_stanag_gry",
             "gm_20Rnd_556x45mm_B_T_M856_stanag_gry",
+            "gm_20Rnd_556x45mm_B_M193_stanag_gry",
             "gm_20Rnd_556x45mm_B_T_M196_stanag_gry",
             "gm_30Rnd_556x45mm_B_M855_stanag_gry",
             "gm_30Rnd_556x45mm_B_T_M856_stanag_gry",
+            "gm_30Rnd_556x45mm_B_M193_stanag_gry",
             "gm_30Rnd_556x45mm_B_T_M196_stanag_gry"
         };
     };
@@ -214,9 +216,11 @@ class CfgMagazineWells {
         WB_Magazines[] += {
             "gm_20Rnd_556x45mm_B_M855_stanag_gry",
             "gm_20Rnd_556x45mm_B_T_M856_stanag_gry",
+            "gm_20Rnd_556x45mm_B_M193_stanag_gry",
             "gm_20Rnd_556x45mm_B_T_M196_stanag_gry",
             "gm_30Rnd_556x45mm_B_M855_stanag_gry",
             "gm_30Rnd_556x45mm_B_T_M856_stanag_gry",
+            "gm_30Rnd_556x45mm_B_M193_stanag_gry",
             "gm_30Rnd_556x45mm_B_T_M196_stanag_gry"
         };
     };

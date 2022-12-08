@@ -55,15 +55,9 @@ class PointerSlot_Rail;
 class asdg_UnderSlot;
 
 class CfgWeapons {
-    class Rifle;
-    class Rifle_Base_F: Rifle {
-        class WeaponSlotsInfo {};
-    };
-    class Rifle_Long_Base_F: Rifle_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
+    class Rifle_Base_F;
     class gm_rifle_base: Rifle_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
+        class WeaponSlotsInfo;
     };
 
     #include "weapons\CfgWeapMisc.hpp"

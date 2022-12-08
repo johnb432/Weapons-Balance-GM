@@ -7,7 +7,7 @@ class gm_m16_base: gm_rifle_base {
     };
 };
 class gm_m16a1_base: gm_m16_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class gm_m16a1_blk: gm_m16a1_base {
     displayName = "M16A1";
@@ -16,7 +16,7 @@ class gm_m16a1_blk: gm_m16a1_base {
     };
 };
 class gm_m16a2_base: gm_m16_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class gm_m16a2_blk: gm_m16a2_base {
     displayName = "M16A2";

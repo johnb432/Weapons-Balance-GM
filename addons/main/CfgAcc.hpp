@@ -1,9 +1,9 @@
 class asdg_SlotInfo;
 class asdg_OpticRail: asdg_SlotInfo {
-    class compatibleItems {};
+    class compatibleItems/* {}*/;
 };
 class asdg_OpticSideMount: asdg_OpticRail {
-    class compatibleItems {};
+    class compatibleItems/* {}*/;
 };
 class asdg_OpticSideRail_AK: asdg_OpticSideMount {
     class compatibleItems: compatibleItems {

@@ -1,7 +1,7 @@
 class gm_rpk_base: gm_ak47_base {
     ACE_barrelLength = 590;
     ACE_barrelTwist = 240;
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class gm_rpk_wud: gm_rpk_base {
     displayName = "RPKN (Wood)";
@@ -27,10 +27,9 @@ class gm_lmgrpk_prp: gm_lmgrpk_base {
 class gm_rpk74_base: gm_ak74_base {
     ACE_barrelLength = 590;
     ACE_barrelTwist = 200;
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
 class gm_rpk74n_base: gm_rpk74_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class gm_lmgrpk74n_base: gm_rpk74n_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -46,7 +45,7 @@ class gm_lmgrpk74n_prp: gm_lmgrpk74n_base {
 };
 
 class gm_machineGun_base: gm_rifle_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class gm_mg3_base: gm_machineGun_base {
     ACE_barrelLength = 565;

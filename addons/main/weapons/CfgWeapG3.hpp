@@ -2,7 +2,7 @@ class gm_g3_base: gm_rifle_base {
     ACE_barrelLength = 450;
     ACE_barrelTwist = 305;
     magazineWell[] += {"CBA_762x51_G3","CBA_762x51_G3_L","CBA_762x51_G3_XL"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class gm_g3a3_base: gm_g3_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -25,7 +25,7 @@ class gm_g3a3_oli: gm_g3a3_base {
 };
 
 class gm_g3_dmr_base: gm_g3_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class gm_g3a3_dmr_base: gm_g3_dmr_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -67,7 +67,7 @@ class gm_g3a4_oli: gm_g3a4_base {
 };
 
 class gm_g3_ebr_base: gm_g3_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class gm_g3a4_ebr_base: gm_g3_ebr_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
